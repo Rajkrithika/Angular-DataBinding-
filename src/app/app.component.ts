@@ -10,5 +10,13 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'databinding';
-  inputValue="Hello"
-}
+  inputValue="Hello";
+
+  onClick()
+    {
+      alert("clicked button shows HAPPY ME");}
+  }
+
+
+
+
